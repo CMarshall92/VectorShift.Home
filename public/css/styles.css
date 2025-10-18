@@ -13723,6 +13723,10 @@ a.mapboxgl-ctrl-logo {
 	}
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 @media (max-width: 991px) {
 
 	.carousel-pagination,

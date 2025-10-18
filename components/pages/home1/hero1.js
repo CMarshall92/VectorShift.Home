@@ -17,19 +17,20 @@ export default function Hero1() {
 								<div className="content">
 									<p className="s-sub-title text-white ">
 										<i className="icon-angles-right moveLeftToRight" />
-										consulting agency
+										Digital Software Agency 
 									</p>
 									<p className="s-title text-white-yellow mb-70 text-fs-70">
-										Modern Business <br />
-										Consulting
+										We
 										<span className="animationtext clip">
 											<TypeAnimation
 												sequence={[
-													' Service',
+													' build for web',
 													1000,
-													' Firm',
+													' build for desktop',
 													1000,
-													' Office',
+													' build for mobile',
+													1000,
+													' build your ideas',
 													1000,
 												]}
 												wrapper="span"
@@ -41,10 +42,8 @@ export default function Hero1() {
 										</span>
 									</p>
 									<span className="line mb-75" />
-									<p className="text font-main-2 fw-5 mb-40">
-										We provide expert guidance across various business functions, <br /> including
-										strategy
-										development, process organizational.
+									<p className="text font-main-2 fw-5 mb-40 text-justify">
+										We provide expert solutions across the digital and physical realms, including custom software development solutions, to drone videography solutions check all our services below.
 									</p>
 									<div className="bot">
 										<Link href="/our-service" className="tf-btn">
@@ -71,18 +70,12 @@ export default function Hero1() {
 											width="0"
 											height="0"
 											sizes="100vw"
-											style={{ width: "100%", height: "auto" }}
-											src="/images/section/page-title-home-1.jpg" data-src="/images/section/page-title-home-1.jpg" alt="" className="lazyload" />
-									</div>
-									<div className="wg-curve-text tf-animate__box animate__slow">
-										<div className="icon">
-											<i className="flaticon-rocket" />
-										</div>
-										<div className="text-rotate">
-											<div className="circle">
-												<div id="circularText" className="text" />
-											</div>
-										</div>
+											style={{ width: "100%", height: "100%" }}
+											src="/images/section/page-title-home-1.jpg" 
+											data-src="/images/section/page-title-home-1.jpg" 
+											alt="" 
+											className="lazyload" 
+										/>
 									</div>
 								</div>
 							</div>
@@ -93,59 +86,43 @@ export default function Hero1() {
 					<div className="wrap-marquee">
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Drones
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Video Production
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Software Development
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Mobile
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Web
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Digital Agency
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Saylo Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Saylo Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Saylo Consulting
+								Specalists
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="JXMWOmuR1hU" onClose={() => setOpen(false)} />
-
 		</>
 	)
 }
