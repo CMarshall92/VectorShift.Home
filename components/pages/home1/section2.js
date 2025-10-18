@@ -16,31 +16,23 @@ export default function Section2() {
 										about company
 									</p>
 									<p className="s-title mb-60 text-anime-wave-right text-clamp-4">
-										We Work For Building a Brighter Future Together
-										and <span>
-											Grow Business
-										</span>Link
+										Software is at the heart of everythign we do 
 									</p>
 									<ul className="list mb-50">
 										<li>
 											<p className="font-main-2">
 												Company Mission
 											</p>
-											<p className="text">
-												We provide expert consulting services designed help businesses
-												thrive in
-												today’s dynamic marketplace team experienced
+											<p className="text text-justify">
+												To build powerful, bespoke software that streamlines workflows and drives business growth. To creating interesting startups were here for both.
 											</p>
 										</li>
 										<li>
 											<p className="font-main-2">
 												Company Vision
 											</p>
-											<p className="text">
-												To be the trusted partner that empowers businesses worldwide to
-												unlock
-												their
-												full potential, driving sustainable growth
+											<p className="text text-justify">
+												To be the leading partner in unlocking business potential through custom software solutions, designed for the web, mobile and much more.
 											</p>
 										</li>
 									</ul>
